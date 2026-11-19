@@ -1,0 +1,22 @@
+cat > .gitignore << 'EOF'
+# Java compiled files
+*.class
+out/
+
+# Runtime data
+data.json
+
+# Node dependencies
+node_modules/
+
+# Environment and secrets
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+EOF
